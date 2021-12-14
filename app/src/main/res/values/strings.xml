@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Soluciones Móviles S.A.C.</string>
+    //vistaPrincipal
+    <string name="BtnMaestroCliente">Maestro Clientes</string>
+    <string name="creando">Base de datos Crear</string>
+    //Vista Mestro clientes
+    <string name="TituloModulo">MODULO MANTENIMIENTO CLIENTES</string>
+    <string name="OpcionZona">ZONA</string>
+    <string name="OpcionTipoCliente">TIPO CLIENTE</string>
+    <string name="OpcionCliente">CLIENTE</string>
+    //Vista Menu Zona
+    <string name="tituloZona">ZONA</string>
+    <string name="nombres">ORDENAR POR NOMBRES</string>
+    <string name="codigos">ORDENAR POR CODIGO</string>
+    //Titulos taablas refereniales
+    <string name="codigo">Codigo</string>
+    <string name="nombre">Nombre</string>
+    <string name="estado">Estado</string>
+    //vista registro zona
+    <string name="rgtroZona">Registro Zona</string>
+    <string name="cod">Codigo  </string>
+    <string name="nom">Nombre  </string>
+    <string name="guardar">Guardar  </string>
+    <string name="registro">Registro </string>
+    //Vista verZona
+    <string name="eliminar">ELIMINAR</string>
+    <string name="activar">ACTIVAR </string>
+    <string name="inactivar">INACTIVAR  </string>
+    <string name="cancelar">CANCELAR </string>
+    <string name="modificar">MODIFICAR  </string>
+    //Vista menu TipoCliente
+    <string name="tituloTipoCliente">TIPO CLIENTE  </string>
+    //Vista Menu Cliente
+    <string name="tituloCliente">  CLIENTE  </string>
+    //Registro Cliente
+    <string name="ruc"> RUC  </string>
+    <string name="zonac"> Zona  </string>
+    <string name="tipoC">  Tipo Cliente  </string>
+    //Vista Cliente
+    //Operaciones
+    <string name="oper"> Operacion </string>
+
+</resources>

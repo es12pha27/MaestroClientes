@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lab02.maestroclientes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaestroClientes">
+        <activity
+            android:name=".Cliente.EditarCliente"
+            android:exported="true" />
+        <activity
+            android:name=".Cliente.VerCliente"
+            android:exported="true"
+            android:parentActivityName=".Cliente.MenuCliente">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Cliente.MenuCliente" />
+        </activity>
+        <activity
+            android:name=".Cliente.RegistroCliente"
+            android:exported="true" android:parentActivityName=".Cliente.MenuCliente">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Cliente.MenuCliente" />
+        </activity>
+        <activity
+            android:name=".Cliente.MenuCliente"
+            android:exported="true" android:parentActivityName=".ModuloMaestroCliente">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ModuloMaestroCliente" />
+        </activity>
+        <activity
+            android:name=".TipoCliente.EditarTipoCliente"
+            android:exported="true" />
+        <activity
+            android:name=".TipoCliente.VerTipoCliente"
+            android:exported="true"
+            android:parentActivityName=".TipoCliente.MenuTipoCliente">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TipoCliente.MenuTipoCliente" />
+        </activity>
+        <activity
+            android:name=".TipoCliente.RegistroTipoCliente"
+            android:exported="true"
+            android:parentActivityName=".TipoCliente.MenuTipoCliente">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TipoCliente.MenuTipoCliente" />
+        </activity>
+        <activity
+            android:name=".TipoCliente.MenuTipoCliente"
+            android:exported="true"
+            android:parentActivityName=".ModuloMaestroCliente">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ModuloMaestroCliente" />
+        </activity>
+        <activity
+            android:name=".EditarZona"
+            android:exported="true" />
+        <activity
+            android:name=".VerZona"
+            android:exported="true"
+            android:parentActivityName=".MenuZona">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuZona" />
+        </activity>
+        <activity
+            android:name=".RegistroZona"
+            android:exported="true"
+            android:parentActivityName=".MenuZona">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuZona" />
+        </activity>
+        <activity
+            android:name=".MenuZona"
+            android:exported="true"
+            android:parentActivityName=".ModuloMaestroCliente">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ModuloMaestroCliente" />
+        </activity>
+        <activity
+            android:name=".ModuloMaestroCliente"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
